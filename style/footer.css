@@ -1,0 +1,52 @@
+@import url(fonts.css);
+
+.footer {
+
+    background: rgb(63, 165, 213);
+}
+
+.footer-content__title {
+    color: rgb(255, 255, 255);
+    font-family: 'RB';
+    font-size: 50px;
+
+    line-height: 59px;
+
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.footer-content__tel {
+    color: rgb(255, 255, 255);
+    font-family: 'RL';
+    font-size: 18px;
+
+    line-height: 21px;
+
+    text-align: left;
+    margin-left: 37px;
+    margin-bottom: 15px;
+}
+
+.footer-content__email {
+    color: rgb(255, 255, 255);
+    font-family: 'RL';
+    font-size: 16px;
+
+    line-height: 19px;
+
+    text-align: left;
+}
